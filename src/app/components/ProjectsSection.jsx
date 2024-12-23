@@ -5,6 +5,15 @@ import ProjectTag from "./ProjectTag";
 
 const projectsData = [
   {
+    id: 9,
+    title: "E-Commerce Application",
+    description: "",
+    image: "/images/projects/9.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "https://sneaker-head-95ft.vercel.app/",
+    previewUrl: "/",
+  },
+  {
     id: 1,
     title: "Data Storage Website",
     description: "Email Authentication for User Login, a place where you can store and manage all your files from images to videos and many more, having a robust search engine and also you can keep a tab of acquired space",
@@ -76,6 +85,7 @@ const projectsData = [
     gitUrl: "https://memory-testing-game.vercel.app/",
     previewUrl: "/",
   },
+
 ];
 
 const ProjectsSection = () => {
