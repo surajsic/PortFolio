@@ -10,13 +10,13 @@ const EmailSection = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const data = {
+  /*  const data = {
       email: e.target.email.value,
       subject: e.target.subject.value,
       message: e.target.message.value,
     };
     const JSONdata = JSON.stringify(data);
-    const endpoint = "/api/send";
+    //const endpoint = "/api/send";
 
     // Form the request for sending data to the server.
     const options = {
@@ -37,6 +37,7 @@ const EmailSection = () => {
       console.log("Message sent.");
       setEmailSubmitted(true);
     }
+      */
   };
 
   return (
