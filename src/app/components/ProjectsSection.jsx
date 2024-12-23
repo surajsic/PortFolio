@@ -7,7 +7,7 @@ const projectsData = [
   {
     id: 9,
     title: "E-Commerce Application",
-    description: "",
+    description: "The Sneaker Store web application offers a sleek, user-friendly platform for browsing, purchasing, and managing a wide range of sneakers. Stripe Payment Gateway Integration: Customers can effortlessly complete their purchases using credit/debit cards, and other popular payment methods.EMAIL Verification- Send user a email incase of forgotten passwords through which they can reset their passwords by providing the given OTP. Product Search Engine: A Powerful search engine where customers can filter sneakers according to their needs Admin Panel: Admins can add new sneakers, edit existing product details, and delete outdated or discontinued products. This control ensures the store always reflects the latest inventory. Responsive Web Application for all kinds of devices",
     image: "/images/projects/9.png",
     tag: ["All", "Web", "Mobile"],
     gitUrl: "https://sneaker-head-95ft.vercel.app/",
